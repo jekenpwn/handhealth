@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white">
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/edt_reset_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_email"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_reset_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:visibility="gone"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ll_reset_securityCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/edt_reset_securityCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/security_code"
+            android:singleLine="true"
+            android:maxEms="6"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/tv_reset_getSecurityCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_security_code"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="12dp"
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/reset_pwd"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</LinearLayout>

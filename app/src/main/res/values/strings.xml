@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">handhealth</string>
+
+    <!--主界面底部tab-->
+    <string name="main_tab_heart">心率</string>
+    <string name="main_tab_pressure">血氧</string>
+    <string name="main_tab_temperature">温度</string>
+    <string name="main_tab_step">计步</string>
+    <string name="main_tab_measure">测量</string>
+    <string name="main_tab_data">数据</string>
+    <string name="main_tab_found">发现</string>
+    <string name="main_tab_me">我</string>
+
+    <!--测量fragment-->
+    <string name="heart_rate">心率</string>
+    <string name="blood_press">血压</string>
+</resources>

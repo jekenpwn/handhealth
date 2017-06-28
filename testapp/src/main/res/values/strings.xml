@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SmartBand</string>
+
+    <!--登录Activity-->
+    <string name="login">登录</string>
+    <string name="phone_number">手机号</string>
+    <string name="email_address">电子邮箱</string>
+    <string name="phone_email">手机号or电子邮箱</string>
+    <string name="password">6至12位密码</string>
+    <string name="comfirm_password">确认密码</string>
+    <string name="new_password">新的6至12位密码</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="signup">注册账号</string>
+    <string name="security_code">验证码</string>
+    <string name="get_security_code">获取验证码</string>
+    <string name="sure">确定</string>
+
+    <!--完善信息Activity-->
+    <string name="sex_tip">请选择您的性别</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="age_tip">请选择您的出生日期</string>
+    <string name="height_tip">请选择您的身高</string>
+    <string name="height">身高是：</string>
+    <string name="weight_tip">请选择您的体重</string>
+    <string name="weight">体重是：</string>
+
+    <!--主界面底部tab-->
+    <string name="main_tab_heart">心率</string>
+    <string name="main_tab_pressure">血氧</string>
+    <string name="main_tab_temperature">温度</string>
+    <string name="main_tab_step">计步</string>
+    <string name="main_tab_measure">测量</string>
+    <string name="main_tab_data">数据</string>
+    <string name="main_tab_found">发现</string>
+    <string name="main_tab_me">我</string>
+
+    <!--我tab页的信息-->
+    <string name="user_info_height">身高</string>
+    <string name="user_info_weight">体重</string>
+    <string name="user_info_bmi">BMI</string>
+
+    <!---->
+    <string name="actionbar_title_option">设置</string>
+    <string name="logout">注销登录</string>
+    <string name="quit">退出</string>
+
+    <string name="aim_step">运动目标</string>
+    <string name="aim_sleep">睡眠目标</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_refresh">Refresh</string>
+</resources>

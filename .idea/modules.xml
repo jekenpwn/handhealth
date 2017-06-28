@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handhealth.iml" filepath="$PROJECT_DIR$/handhealth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartband/smartband.iml" filepath="$PROJECT_DIR$/smartband/smartband.iml" />
+    </modules>
+  </component>
+</project>

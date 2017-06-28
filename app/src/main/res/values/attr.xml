@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tab_icon" format="reference"></attr>
+    <attr name="tab_color" format="color"></attr>
+    <attr name="tab_text" format="string"></attr>
+    <attr name="tab_text_size" format="dimension"></attr>
+
+    <declare-styleable name="Main_TabBottom">
+        <attr name="tab_icon"></attr>
+        <attr name="tab_color"></attr>
+        <attr name="tab_text"></attr>
+        <attr name="tab_text_size"></attr>
+    </declare-styleable>
+    
+</resources>

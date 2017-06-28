@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <size
+        android:height="90dp"
+        android:width="90dp" />
+
+    <solid android:color="@color/color_space_studytools_red" />
+
+    <corners android:radius="180dip" />
+
+    <padding
+        android:bottom="4dip"
+        android:left="4dip"
+        android:right="4dip"
+        android:top="4dip" />
+
+</shape>
